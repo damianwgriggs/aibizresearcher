@@ -6,7 +6,7 @@ from articles_db import ARTICLES
 
 # --- Configuration ---
 # For local testing, replace with: genai.configure(api_key="YOUR_KEY")
-genai.configure(api_key="AIzaSyDkhCsznJYHHFJBST-8DUSCmAiYqi7ADb0")
+genai.configure(api_key=""YOUR_API_KEY")
 
 # --- AI Model Setup ---
 try:
@@ -98,4 +98,5 @@ if st.button("Begin Research"):
 
         except Exception as e:
             st.error(f"The research process failed. Error: {e}")
+
 
